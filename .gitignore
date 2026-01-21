@@ -1,0 +1,82 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Results and cache (regeneratable)
+results/
+charts/
+llm_cache/
+rag_embeddings/
+
+# Data files (large, downloadable)
+data/*.JSON
+data/*.json
+clean_text/train/*.txt
+clean_text/dev/*.txt
+clean_text/test/*.txt
+gold_relations/train/*.json
+gold_relations/dev/*.json
+gold_relations/test/*.json
+
+# Keep README files
+!data/README.md
+!clean_text/README.md
+!gold_relations/README.md
+!rag_sources/README.md
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Lock files (optional, can include if desired)
+# uv.lock
