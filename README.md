@@ -41,7 +41,7 @@ This project implements a comprehensive pipeline for biomedical relation extract
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone git@github.com:Soeky/relation-extraction-using-llms.git
 cd relation-extraction-using-llms
 ```
 
